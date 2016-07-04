@@ -76,10 +76,10 @@
     "database": "sqlite:///test/sqlite.db",
     "logging": {
         "console_debug": true,
-        "file_debug": false,
-        "raw_file_log": false,
+        "file_debug": true,
+        "raw_file_log": true,
         "show_motd": false,
-        "show_plugin_loading": false,
+        "show_plugin_loading": true,
         "show_server_info": false
     },
     "plugin_loading": {
